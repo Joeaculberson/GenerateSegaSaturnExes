@@ -40,3 +40,5 @@ Assuming your bin/cue files are named correctly (check with http://consolegrid.c
 Edit the Python script to point to your DAEMON Tools lite exe and the SSF.exe.
 
 Run the script in the same folder as all of your bin/cue files.
+
+Run the game in Steam and it should mount your game and boot SSF.

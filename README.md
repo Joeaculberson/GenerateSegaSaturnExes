@@ -18,7 +18,9 @@ Run Ice like you normally would with other emulators.
 Use this in the consoles.txt file
 
 [SSF]
+
 location=C:\Users\Joe\Documents\SSF_012_beta_R4\SSF.exe
+
 command=C:\Users\Joe\Desktop\ROMs\Saturn\exes\%fn.exe
 
 in order to use the %fn param I had to download the lastest version of ice from their repo.
@@ -26,8 +28,11 @@ in order to use the %fn param I had to download the lastest version of ice from 
 Use this in the emulators.txt file
 
 [Saturn]
+
 nickname=Saturn
+
 emulator=SSF
+
 extensions=cue
 
 Assuming your bin/cue files are named correctly (check with http://consolegrid.com/), then you should see your games in Steam after running Ice.

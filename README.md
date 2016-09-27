@@ -23,7 +23,7 @@ location=C:\Users\Joe\Documents\SSF_012_beta_R4\SSF.exe
 
 command=C:\Users\Joe\Desktop\ROMs\Saturn\exes\%fn.exe
 
-in order to use the %fn param I had to download the lastest version of ice from their repo.
+in order to use the %fn param I had to download the lastest version of Ice from their repo.
 
 Use this in the emulators.txt file
 

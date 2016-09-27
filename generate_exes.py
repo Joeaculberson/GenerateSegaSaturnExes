@@ -9,8 +9,8 @@ print('Generating exes')
 for cue_file in glob.glob("*.cue"):
     file_name = os.path.splitext(cue_file)[0]
 	
-	batLocation = os.path.join(dir, "exes\\"+file_name+ ".bat")
-	exeLocation = os.path.join(dir, "exes\\"+file_name+ ".exe")
+    batLocation = os.path.join(dir, "exes\\"+file_name+ ".bat")
+    exeLocation = os.path.join(dir, "exes\\"+file_name+ ".exe")
 	
     print(file_name)
     if os.path.exists(batLocation):

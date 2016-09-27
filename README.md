@@ -5,8 +5,9 @@ Reason for this script:
 
 SFF does not allow direct usage of bin/cue files. Instead it expects a physical disc. This causes two issues:
 
-  You're required to have a disc drive on the device you are on
-  You can't just specify target params if you are using Steam like with other emulators.
+  1) You're required to have a disc drive on the device you are on.
+  
+  2) You can't just specify target params if you are using Steam like with other emulators.
   
 This can be sovled by downloading Daemon Tools lite and mounting your bin/cue virtually. This script dares to go one step further. This script creates exe's from bat files so that you can mount the bin/cue file, open SSF, and run the game -- all with one click.
 

@@ -1,5 +1,4 @@
 # GenerateSegaSaturnExes
-A python script to generate your Sega Saturn exes for 1 click playing. Ideal to use with Ice for Steam.
 
 Reason for this script:
 
@@ -13,9 +12,7 @@ This can be sovled by downloading Daemon Tools lite and mounting your bin/cue vi
 
 Directions:
 
-Run Ice like you normally would with other emulators.
-
-Use this in the consoles.txt file
+Use this in Ice's consoles.txt file
 
 [SSF]
 
@@ -25,7 +22,7 @@ command=C:\Users\Joe\Desktop\ROMs\Saturn\exes\%fn.exe
 
 in order to use the %fn param I had to download the lastest version of Ice from their repo.
 
-Use this in the emulators.txt file
+Use this in Ice's emulators.txt file
 
 [Saturn]
 
@@ -35,6 +32,8 @@ emulator=SSF
 
 extensions=cue
 
+Run Ice like you normally would with other emulators.
+
 Assuming your bin/cue files are named correctly (check with http://consolegrid.com/), then you should see your games in Steam after running Ice.
 
 Edit the Python script to point to your DAEMON Tools lite exe and the SSF.exe.
@@ -42,3 +41,7 @@ Edit the Python script to point to your DAEMON Tools lite exe and the SSF.exe.
 Run the script in the same folder as all of your bin/cue files.
 
 Run the game in Steam and it should mount your game and boot SSF.
+
+DISCLAIMER:
+
+I do not support piracy. This is just a way to stream line your Sega Saturn back ups in to Steam.
